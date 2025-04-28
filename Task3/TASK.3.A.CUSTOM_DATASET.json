@@ -1,0 +1,278 @@
+
+[
+  {
+    "Instruction": "What is anemia?",
+    "Response": {
+      "Definition": "A condition with insufficient healthy red blood cells",
+      "Mechanism": "Reduced hemoglobin → impaired oxygen transport",
+      "Key Symptoms": "Fatigue, pallor, shortness of breath",
+      "Common Causes": "Iron/B12 deficiency, chronic disease, blood loss"
+    },
+    "Type": "mechanistic_explanation"
+  },
+  {
+    "Instruction": "What are the types of anemia?",
+    "Response": {
+      "1": "Iron-deficiency (most common)",
+      "2": "Vitamin B12/folate deficiency",
+      "3": "Hemolytic (RBC destruction)",
+      "4": "Aplastic (bone marrow failure)",
+      "5": "Sickle cell (genetic hemoglobin disorder)"
+    },
+    "Type": "classification"
+  },
+  {
+    "Instruction": "Can antibiotics cure anemia?",
+    "Response": {
+      "No": "Antibiotics target bacterial infections. Anemia requires:",
+      "1": "Iron supplements for deficiency",
+      "2": "B12 injections for pernicious anemia",
+      "3": "Blood transfusions in severe cases",
+      "4": "Treating underlying conditions"
+    },
+    "Type": "misconception_clarification"
+  },
+  {
+    "Instruction": "How is tuberculosis treated?",
+    "Response": {
+      "1": "First-line drugs: Isoniazid + Rifampin ×6 months",
+      "2": "Add Pyrazinamide + Ethambutol for first 2 months",
+      "3": "DOTS protocol (Directly Observed Therapy)",
+      "4": "Drug-resistant cases require second-line agents ×18-24 months"
+    },
+    "Type": "treatment_protocol"
+  },
+  {
+    "Instruction": "Why does TB require long treatment?",
+    "Response": {
+      "1": "Mycobacteria grow slowly",
+      "2": "Dormant bacilli survive initial therapy",
+      "3": "Prevents drug resistance",
+      "4": "Ensures complete bacterial clearance"
+    },
+    "Type": "mechanistic_explanation"
+  },
+  {
+    "Instruction": "Is TB cured by 2 weeks of antibiotics?",
+    "Response": {
+      "False": "Incomplete treatment leads to:",
+      "1": "Relapse",
+      "2": "Drug resistance",
+      "3": "MDR-TB (multi-drug resistant TB)",
+      "4": "Extended future treatment needs"
+    },
+    "Type": "misconception_clarification"
+  },
+  {
+    "Instruction": "What are the risk factors for heart disease?",
+    "Response": {
+      "1": "High cholesterol",
+      "2": "Smoking",
+      "3": "Hypertension",
+      "4": "Diabetes",
+      "5": "Family history of heart disease",
+      "6": "Obesity"
+    },
+    "Type": "classification"
+  },
+  {
+    "Instruction": "What is heart disease?",
+    "Response": {
+      "Definition": "A range of conditions that affect the heart",
+      "Mechanism": "Impaired blood flow → oxygen deprivation to heart tissues",
+      "Key Symptoms": "Chest pain, shortness of breath, dizziness",
+      "Causes": "Atherosclerosis, high blood pressure, genetic factors"
+    },
+    "Type": "mechanistic_explanation"
+  },
+  {
+    "Instruction": "Can heart disease be reversed?",
+    "Response": {
+      "No": "Heart disease can be managed but not fully reversed. Treatment focuses on:",
+      "1": "Lifestyle changes (diet, exercise)",
+      "2": "Medications (statins, beta-blockers)",
+      "3": "Surgery (bypass, angioplasty)"
+    },
+    "Type": "misconception_clarification"
+  },
+  {
+    "Instruction": "How is heart disease treated?",
+    "Response": {
+      "1": "Medications: Statins, ACE inhibitors",
+      "2": "Lifestyle changes: Diet, exercise, smoking cessation",
+      "3": "Surgical interventions: Coronary artery bypass grafting (CABG), angioplasty",
+      "4": "Monitoring and management of risk factors"
+    },
+    "Type": "treatment_protocol"
+  },
+  {
+    "Instruction": "What is malaria?",
+    "Response": {
+      "Definition": "A parasitic infection transmitted by Anopheles mosquitoes",
+      "Mechanism": "Plasmodium parasites infect RBCs → disrupt oxygen transport",
+      "Key Symptoms": "Fever, chills, fatigue, headache",
+      "Common Causes": "Mosquito bites in endemic areas"
+    },
+    "Type": "mechanistic_explanation"
+  },
+  {
+    "Instruction": "What are the types of malaria?",
+    "Response": {
+      "1": "Plasmodium falciparum (most severe)",
+      "2": "Plasmodium vivax (relapsing)",
+      "3": "Plasmodium malariae (less common)",
+      "4": "Plasmodium ovale (less common)"
+    },
+    "Type": "classification"
+  },
+  {
+    "Instruction": "Can malaria be cured with antibiotics?",
+    "Response": {
+      "No": "Malaria is treated with antimalarial drugs, not antibiotics. Treatment options include:",
+      "1": "Chloroquine (for susceptible strains)",
+      "2": "Artemisinin-based combination therapies (ACTs)",
+      "3": "Quinine (for resistant strains)"
+    },
+    "Type": "misconception_clarification"
+  },
+  {
+    "Instruction": "How is malaria treated?",
+    "Response": {
+      "1": "Artemisinin-based combination therapies (ACTs)",
+      "2": "Chloroquine (for non-resistant malaria)",
+      "3": "Quinidine or Quinine (for severe cases)",
+      "4": "Supportive care (fluids, electrolytes)"
+    },
+    "Type": "treatment_protocol"
+  },
+  {
+    "Instruction": "Why is malaria resistant to treatment in some cases?",
+    "Response": {
+      "1": "Overuse of antimalarial drugs",
+      "2": "Mutation of Plasmodium parasites",
+      "3": "Incomplete treatment cycles",
+      "4": "Poor drug efficacy in some regions"
+    },
+    "Type": "mechanistic_explanation"
+  },
+  {
+    "Instruction": "Can malaria be cured in one dose of medication?",
+    "Response": {
+      "False": "Malaria requires a full course of treatment to ensure all parasites are cleared.",
+      "1": "Incomplete treatment leads to relapse",
+      "2": "Drug resistance development"
+    },
+    "Type": "misconception_clarification"
+  },
+  {
+    "Instruction": "What is diabetes?",
+    "Response": {
+      "Definition": "A condition where the body cannot properly process glucose",
+      "Mechanism": "Insulin resistance or lack of insulin → high blood sugar",
+      "Key Symptoms": "Frequent urination, increased thirst, fatigue",
+      "Types": "Type 1, Type 2, Gestational"
+    },
+    "Type": "mechanistic_explanation"
+  },
+  {
+    "Instruction": "What are the types of diabetes?",
+    "Response": {
+      "1": "Type 1 (autoimmune, insulin-dependent)",
+      "2": "Type 2 (insulin resistance, most common)",
+      "3": "Gestational (pregnancy-related)",
+      "4": "Maturity onset diabetes of the young (MODY)"
+    },
+    "Type": "classification"
+  },
+  {
+    "Instruction": "Can diabetes be cured?",
+    "Response": {
+      "No": "Diabetes cannot be cured but managed through:",
+      "1": "Insulin therapy (for Type 1)",
+      "2": "Oral medications (for Type 2)",
+      "3": "Lifestyle changes (diet, exercise)",
+      "4": "Blood sugar monitoring"
+    },
+    "Type": "misconception_clarification"
+  },
+  {
+    "Instruction": "How is diabetes treated?",
+    "Response": {
+      "1": "Insulin (for Type 1)",
+      "2": "Oral medications (e.g., Metformin for Type 2)",
+      "3": "Lifestyle changes: balanced diet, physical activity",
+      "4": "Blood sugar monitoring and management"
+    },
+    "Type": "treatment_protocol"
+  },
+  {
+    "Instruction": "Why is diabetes a lifelong condition?",
+    "Response": {
+      "1": "Insulin resistance or lack of insulin production is irreversible",
+      "2": "Genetic predisposition",
+      "3": "Chronic high blood sugar damages organs over time",
+      "4": "Long-term management prevents complications"
+    },
+    "Type": "mechanistic_explanation"
+  },
+  {
+    "Instruction": "Is diabetes reversible with weight loss?",
+    "Response": {
+      "False": "While weight loss can improve control, Type 2 diabetes isn't fully reversible.",
+      "1": "Weight loss can reduce insulin resistance",
+      "2": "Treatment still requires ongoing management"
+    },
+    "Type": "misconception_clarification"
+  },
+  {
+    "Instruction": "What is asthma?",
+    "Response": {
+      "Definition": "A chronic respiratory condition causing airway inflammation",
+      "Mechanism": "Triggered inflammation → narrowed airways → difficulty breathing",
+      "Key Symptoms": "Wheezing, coughing, shortness of breath",
+      "Common Triggers":
+
+ "Allergens, exercise, cold air"
+    },
+    "Type": "mechanistic_explanation"
+  },
+  {
+    "Instruction": "What are the types of asthma?",
+    "Response": {
+      "1": "Allergic asthma (triggered by allergens)",
+      "2": "Non-allergic asthma (induced by exercise, stress, etc.)",
+      "3": "Exercise-induced asthma",
+      "4": "Occupational asthma (due to workplace triggers)"
+    },
+    "Type": "classification"
+  },
+  {
+    "Instruction": "Can asthma be cured?",
+    "Response": {
+      "No": "Asthma can't be cured but can be managed with:",
+      "1": "Inhaled corticosteroids",
+      "2": "Bronchodilators",
+      "3": "Avoiding triggers"
+    },
+    "Type": "misconception_clarification"
+  },
+  {
+    "Instruction": "How is asthma treated?",
+    "Response": {
+      "1": "Inhaled corticosteroids (ICS) for long-term control",
+      "2": "Short-acting beta-agonists (SABA) for quick relief",
+      "3": "Leukotriene inhibitors for inflammation",
+      "4": "Avoidance of known triggers"
+    },
+    "Type": "treatment_protocol"
+  },
+  {
+    "Instruction": "Why is asthma a chronic condition?",
+    "Response": {
+      "1": "Persistent airway inflammation",
+      "2": "Genetic and environmental factors",
+      "3": "Airway remodeling over time"
+    },
+    "Type": "mechanistic_explanation"
+  }
+]
